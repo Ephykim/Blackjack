@@ -100,7 +100,7 @@ button:hover {
 /* RESPONSIVE DESIGN  FOR MOBILE*/
 @media screen and (max-width:495px) {
     h1 {
-        font-size: 35px;
+        font-size: 40px;
         letter-spacing: 1.5px;
     }
 
@@ -116,7 +116,7 @@ button:hover {
 
     button {
         width: 180px;
-        margin: 10px;
+        margin: 8px 4px;
         font-size: 25px;
         padding: 10px 5px;
     }
