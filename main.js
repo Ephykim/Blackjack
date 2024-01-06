@@ -32,7 +32,7 @@ function renderGame() {
         message = "You've got BlackJack !";
         hasBlackjack = true;
     } else {
-        message = "You are out of the game.";
+        message = "Game Over.";
         isAlive = false;
     }
     messageEl.textContent = message;
