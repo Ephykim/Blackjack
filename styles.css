@@ -19,7 +19,6 @@ body {
     width: 600px;
     text-align: center;
     padding: 20px 0;
-   /*  border: 2px solid #fff; */
 }
 
 h1 {
@@ -27,6 +26,14 @@ h1 {
     font-size: 50px;
     color: #E44D2E;
     letter-spacing: 3.5px;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2.8px;
 }
 
 p {
@@ -37,13 +44,7 @@ p {
     letter-spacing: 2px;
 }
 
-#message-el {
-    font-style: italic;
-    font-size: 34px;
-    font-weight: bold;
-    text-transform: capitalize;
-    letter-spacing: 2.8px;
-}
+
 
 button {
     width: 150px;
@@ -78,7 +79,7 @@ button:hover {
 
     p {
         margin: 4px 0;
-        font-size: 28px;
+        font-size: 26px;
         letter-spacing: 1.5px;
     }
 
@@ -103,12 +104,12 @@ button:hover {
     }
 
     #message-el {
-        font-size: 30px;
+        font-size: 28px;
         letter-spacing: 1.8px;
     }
 
     p {
-        font-size: 28px;
+        font-size: 25px;
         letter-spacing: 1.2px;
     }
 
