@@ -11,13 +11,15 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
+    overflow: hidden;
     background-color: #08080A;
 }
 
 .container {
-    width: 50vw;
+    width: 600px;
     text-align: center;
     padding: 20px 0;
+    border: 2px solid #fff;
 }
 
 h1 {
@@ -60,28 +62,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* RESPONSIVE DESIGN */
-@media screen and (max-width:495px) {
-    h1 {
-        font-size: 26px;
-        letter-spacing: 1.5px;
-    }
-
-    #message-el {
-        font-size: 22px;
-        letter-spacing: 1.8px;
-    }
-
-    p {
-        font-size: 16px;
-        letter-spacing: 1.2px;
-    }
-
-    .container {
-        transform: scale(0.7);
-    }
-}
-
+/*  RESPONSIVE DESIGN FOR TABLET */
 @media screen and (min-width:495px) and (max-width:768px) {
 
     h1 {
@@ -97,18 +78,48 @@ button:hover {
 
     p {
         margin: 4px 0;
-        font-size: 20px;
+        font-size: 25px;
         letter-spacing: 1.5px;
     }
 
     button {
-        width: 140px;
-        padding: 10px 8px;
-        margin: 4px 2px;
-        font-size: 20px;
+        width: 180px;
+        padding: 10px 5px;
+        margin: 4px 6px;
+        font-size: 25px;
     }
 
     .container {
-        transform: scale(0.8);
+        width: 500px;
+        padding: 10px;
+    }
+}
+
+/* RESPONSIVE DESIGN  FOR MOBILE*/
+@media screen and (max-width:495px) {
+    h1 {
+        font-size: 35px;
+        letter-spacing: 1.5px;
+    }
+
+    #message-el {
+        font-size: 30px;
+        letter-spacing: 1.8px;
+    }
+
+    p {
+        font-size: 28px;
+        letter-spacing: 1.2px;
+    }
+
+    button {
+        width: 180px;
+        margin: 10px;
+        font-size: 25px;
+        padding: 10px 5px;
+    }
+
+    .container {
+        width: 400px;
     }
 }
