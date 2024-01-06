@@ -19,7 +19,7 @@ body {
     width: 600px;
     text-align: center;
     padding: 20px 0;
-    border: 2px solid #fff;
+   /*  border: 2px solid #fff; */
 }
 
 h1 {
@@ -67,18 +67,18 @@ button:hover {
 
     h1 {
         margin: 3px 0;
-        font-size: 30px;
+        font-size: 40px;
         letter-spacing: 2.8px;
     }
 
     #message-el {
-        font-size: 25px;
+        font-size: 30px;
         letter-spacing: 2.2px;
     }
 
     p {
         margin: 4px 0;
-        font-size: 25px;
+        font-size: 28px;
         letter-spacing: 1.5px;
     }
 
