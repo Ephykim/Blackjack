@@ -29,7 +29,7 @@ function renderGame() {
     if (sum < 21) {
         message = "Draw a new Card";
     } else if (sum === 21) {
-        message = "You've got BlackJack !";
+        message = "You've got BlackJack 🥳";
         hasBlackjack = true;
     } else {
         message = "Game Over !!";
